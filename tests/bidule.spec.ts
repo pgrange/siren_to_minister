@@ -11,10 +11,10 @@ describe('Bidule', () => {
 
         assert.deepEqual(tutelles(service, baseDila['service']), expected_tutelles);
     });
-    it.skip("trouve la tutelle du siret qui dépend de l'arcom", () => {
-        const service = '12004701400036'; //FIXME
-        const expected_tutelles = ['172218']; //FIXME
+    // it("trouve la tutelle du siret qui dépend de l'arcom", () => {
+    //     const service = '12004701400036'; //FIXME
+    //     const expected_tutelles = ['172218']; //FIXME
 
-        assert.equal(tutelles(service, baseDila['service']), expected_tutelles);
-    });
+    //     assert.equal(tutelles(service, baseDila['service']), expected_tutelles);
+    // });
 });
